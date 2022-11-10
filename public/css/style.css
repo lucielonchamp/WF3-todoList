@@ -1,0 +1,56 @@
+/* //Expérience
+#btn-rem {
+  display: none;
+} */
+body {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 2rem;
+  text-align: center;
+}
+.task {
+  border-bottom: 2px solid #000;
+  margin: 0.5rem 0;
+}
+
+section {
+  max-width: 400px;
+  padding: 1rem;
+  margin: auto;
+  border: 2px solid black;
+  box-shadow: 4px 4px 1px black;
+}
+
+li span {
+  display: flex;
+  align-items: center;
+}
+.edit-text {
+  margin: 0% 1rem;
+}
+.todo-input {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-input input {
+  width: 100%;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+.todo-list {
+  padding: 0;
+  list-style: none;
+}
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+}
+
+.task-finished {
+  text-decoration: line-through;
+}
